@@ -30,8 +30,6 @@ int main(){
         cout<< "Ingrese su password: ";
         cin>>password;
         ejectutaTry(password);
-
-
     }
     catch(string* e){
         cout<<*e<<endl;
