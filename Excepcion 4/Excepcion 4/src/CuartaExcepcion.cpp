@@ -15,7 +15,7 @@ bool ejectutaTry(string password) {
 	xyz.size();
 	xyz.substr();
 	xyz.length(); */  //Esto son posibles metodos a utilizar
-    if(password[0]=='A' && password[password.length()-1]=='Z' && password.length()>1){
+    if(password[0]=='A' && password[password.length()-1]=='Z' && password.size()>1){
         cout << "Password Correcto"<<endl;
         return true;
     }
